@@ -1,56 +1,38 @@
-# Welcome to your Expo app 👋
+# Welcome to BlueRobins React Native IOS development Check in !! :-)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo](https://expo.dev) project, which is a framework built on top of React Native
 
-## Get started
+## Video Demo
+Below is a video demo of the app!
 
-1. Install dependencies
+[Demo 1](https://drive.google.com/file/d/1FEFksnsCWN2lbCovpKbBalQqdOCnXQ2G/view?usp=sharing)
 
-   ```bash
-   npm install
-   ```
+[Demo 2](https://drive.google.com/file/d/1ocaOcpFXUMAZp8uz3bpq1Nr4T3y7_c1w/view?usp=sharing)
 
-2. Start the app
+# Setup & Running
 
-   ```bash
-   npx expo start
-   ```
+## Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [Expo Go](https://expo.dev/client) app on your phone
 
-In the output, you'll find options to open the app in a
+## Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repo
 ```bash
-npm run reset-project
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   cd YOUR_REPO_NAME
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies
+```bash
+   npm install
+```
 
-### Other setup steps
+3. Start the dev server
+```bash
+   npx expo start
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+4. Scan the QR code in your terminal with:
+   - **iOS** — Camera app
+   - **Android** — Expo Go app
