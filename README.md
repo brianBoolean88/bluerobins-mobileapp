@@ -1,6 +1,13 @@
-# Welcome to your the BlueRobins React Native Variant !! :-)
+# Welcome to BlueRobins React Native IOS development Check in !! :-)
 
 This is an [Expo](https://expo.dev) project, which is a framework built on top of React Native
+
+## Video Demo
+Below is a video demo of the app!
+
+[Demo 1](https://drive.google.com/file/d/1FEFksnsCWN2lbCovpKbBalQqdOCnXQ2G/view?usp=sharing)
+
+[Demo 2](https://drive.google.com/file/d/1ocaOcpFXUMAZp8uz3bpq1Nr4T3y7_c1w/view?usp=sharing)
 
 # Setup & Running
 
@@ -29,10 +36,3 @@ This is an [Expo](https://expo.dev) project, which is a framework built on top o
 4. Scan the QR code in your terminal with:
    - **iOS** — Camera app
    - **Android** — Expo Go app
-
-## Video Demo
-Below is a video demo of the app!
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
