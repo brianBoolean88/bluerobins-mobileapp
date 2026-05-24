@@ -2,6 +2,8 @@
 
 This is an [Expo](https://expo.dev) project, which is a framework built on top of React Native
 
+Please note this is for IOS development only
+
 ## Video Demo
 Below is a video demo of the app!
 
@@ -34,5 +36,4 @@ Below is a video demo of the app!
 ```
 
 4. Scan the QR code in your terminal with:
-   - **iOS** — Camera app
-   - **Android** — Expo Go app
+   - **iOS**: Camera app
