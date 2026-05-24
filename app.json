@@ -34,11 +34,20 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-web-browser",
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2c4c270c-8049-4c06-8b14-9094ff81723e"
+      }
     }
   }
 }

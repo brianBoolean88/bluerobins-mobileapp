@@ -1,0 +1,173 @@
+import type { PricingPlanCardProps } from "@/components/pricing-plan-card";
+
+export type PricingTrackId = "builder" | "summer" | "comps" | "special";
+
+export const TRACK_LABELS: Record<PricingTrackId, string> = {
+  builder: "Builder Track — Fall & Spring",
+  summer: "Summer Programs",
+  comps: "Competitions",
+  special: "Special Programs",
+};
+
+export const PRICING_PLANS_BY_TRACK: Record<
+  PricingTrackId,
+  Omit<PricingPlanCardProps, "isDarkMode" | "onEnroll">[]
+> = {
+  builder: [
+    {
+      icon: "⚡",
+      title: "Projects",
+      price: "$399",
+      priceSuffix: "/month",
+      perSession: "$100 per session",
+      blockNote: "1 block = 4 sessions per month",
+      subtitle: "Core 16-Week Project Experience",
+      schedule: "4 sessions/month · 45-min mentorship · 16-week arc",
+      features: [
+        "1:1 or small-group mentorship",
+        "15+ interdisciplinary domains",
+        "Structured progression across 4 milestone phases",
+        "A completed, portfolio-ready project",
+        "Opportunity to present at our quarterly showcase events",
+        "Personalized guidance aligned to each student's interests",
+        "Mentors from Berkeley, MIT, Stanford & more",
+        "Projects are selected and purchased through the Project Hub.",
+      ],
+    },
+    {
+      icon: "📖",
+      title: "Wisdom Lab",
+      price: "$399",
+      priceSuffix: "/month",
+      perSession: "$100 per session",
+      blockNote: "1 block = 4 sessions per month",
+      subtitle: "Intergenerational Leadership & Storytelling",
+      schedule: "4 sessions/month · 45-min mentorship · 16-week lab",
+      features: [
+        "Guided intergenerational interviews",
+        "Extract insights, themes, and lived lessons",
+        "Transform conversations into a publishable storytelling project",
+        "Contribute to the World Wisdom Map",
+        "Designed in collaboration with Project FUEL — Wisdom documented across 195 countries in the last 15 years",
+      ],
+    },
+  ],
+  summer: [
+    {
+      icon: "🚀",
+      title: "Summer Project Intensive",
+      price: "$849",
+      priceSuffix: "× 2 installments",
+      perSession: "$67 per hour",
+      subtitle: "Full Experience. Accelerated Pace.",
+      tagline: undefined,
+      schedule:
+        "Full enrollment: $1599 (save $99) · 1-on-1 mentoring · 2x/week · 10 weeks",
+      features: [
+        "1-on-1 dedicated mentorship — your own expert mentor",
+        "20 private mentor-led sessions (1 hour each)",
+        "+ 3 hours of immersive workshops (3D Printing, Hardware Build, AI / ML Lab)",
+        "+ 1 hour final presentation & demo",
+        "Total: 24-hour guided innovation experience",
+      ],
+      footerNote:
+        "Full enrollment $1599 (best value) — or Flexible Plan: $849 + $849 ($1698 total).",
+    },
+  ],
+  comps: [
+    {
+      icon: "🧮",
+      title: "Math Competitions",
+      price: "$249",
+      priceSuffix: "/month",
+      perSession: "$62 per session",
+      blockNote: "1 block = 4 sessions per month",
+      subtitle: "AMC, AIME, MathCounts, Olympiad & Advanced High School Math",
+      schedule: "4 sessions/month · 60-min private mentorship · 16-week progression",
+      features: [
+        "AMC, AIME, MathCounts, and Olympiad-style preparation",
+        "AP Calculus AB/BC and AP Statistics",
+        "Linear Algebra and Multivariable Calculus",
+        "Competition roadmap tailored to student's target level",
+        "Timed mock simulations and structured diagnostics",
+        "Mentors from Berkeley, MIT, Stanford & more with national / international competition experience",
+      ],
+    },
+    {
+      icon: "🔬",
+      title: "Science Competitions",
+      price: "$299",
+      priceSuffix: "/month",
+      perSession: "$75 per session",
+      blockNote: "1 block = 4 sessions per month",
+      subtitle: "School Science Fairs",
+      schedule: "4 sessions/month · 60-min private mentorship · 16-week progression",
+      features: [
+        "Science Olympiad event preparation and team strategy",
+        "Science Bowl, USABO, USNCO, USAPhO competition prep",
+        "ISEF & regional science fair project mentorship",
+        "Research design, data analysis, and write-up coaching",
+        "Timed mock simulations and structured diagnostics",
+        "Mentors from Berkeley, MIT, Stanford & more with national / international competition experience",
+      ],
+    },
+    {
+      icon: "📋",
+      title: "Poster Prep",
+      price: "$299",
+      priceSuffix: "total",
+      perSession: "$60 per session",
+      subtitle: "Sharpen Your Idea. Elevate Your Submission.",
+      tagline: "Focused 5-session sprint · 45-min small group",
+      schedule: "",
+      features: [
+        "Clarify and refine your thesis",
+        "Strengthen research framing and originality",
+        "Craft a clear, judge-friendly narrative",
+        "Elevate visuals, layout, and data presentation",
+        "Structured critique and refinement",
+        "Final poster polished for submission and presentation",
+      ],
+    },
+  ],
+  special: [
+    {
+      icon: "🎓",
+      title: "College Application",
+      price: "$599",
+      priceSuffix: "/month",
+      perSession: "$37 per session",
+      blockNote: "1 block = 4 sessions per month",
+      subtitle: "Crafting Winning College Essays",
+      schedule: "1 session/week · 60-min 1:1 mentorship · 6 months (June–December)",
+      features: [
+        "Sessions co-led by Raji Kannan & a mentor from a top university",
+        "Personal statement & Common App essay development",
+        "UC essays and supplemental essay strategy",
+        "Voice, structure, and narrative coaching",
+        "Application-wide story arc across schools",
+        "Unlimited edits",
+        "Final, submission-ready essay portfolio",
+      ],
+      ctaLabel: "Get Started",
+    },
+    {
+      icon: "♟️",
+      title: "Chess",
+      price: "$399",
+      priceSuffix: "/month",
+      perSession: "$25 per session",
+      blockNote: "1 block = 4 sessions per month",
+      subtitle: "Strategy, Critical Thinking & Tournament Play",
+      schedule: "16 sessions/month · 45-min mentorship · 16-week arc",
+      features: [
+        "Opening, middlegame, and endgame fundamentals",
+        "Tactical patterns and strategic decision-making",
+        "Game analysis with expert mentor feedback",
+        "Tournament preparation and rating progression",
+        "Critical thinking transferable to academics",
+        "Mentorship from accomplished tournament players",
+      ],
+    },
+  ],
+};
